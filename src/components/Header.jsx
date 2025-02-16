@@ -66,12 +66,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="/register"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="/login">
           Sign in
         </Button>
 

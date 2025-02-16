@@ -21,8 +21,6 @@ const App = () => {
             element={<Login />}
           />
         </Routes>
-
-
         <Footer />
       </div>
 
