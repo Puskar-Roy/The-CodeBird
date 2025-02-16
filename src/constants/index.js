@@ -40,12 +40,12 @@ export const navigation = [
   {
     id: "0",
     title: "Events",
-    url: "#features",
+    url: "/features",
   },
   {
     id: "1",
     title: "About Us",
-    url: "#pricing",
+    url: "/aboutus",
   },
   {
     id: "2",
@@ -60,7 +60,7 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "#signup",
+    url: "/register",
     onlyMobile: true,
   },
   {

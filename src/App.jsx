@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import ContactUs from "./components/ContactUs/ContactUs";
 import CrewPage from './components/Crew/CrewPage'
+import DownPage from "./components/common/404Page";
 
 
 const App = () => {
@@ -29,6 +30,10 @@ const App = () => {
           <Route
             path="/contact"
             element={<ContactUs />}
+          />
+          <Route
+            path="*"
+            element={<DownPage />}
           />
         </Routes>
         <Footer />
