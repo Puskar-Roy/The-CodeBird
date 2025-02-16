@@ -1,4 +1,4 @@
-import { background } from "../../assets";
+import { robot } from "../../assets";
 
 export const Rings = () => {
   return (
@@ -33,10 +33,10 @@ export const HamburgerMenu = () => {
     <div className="absolute inset-0 pointer-events-none lg:hidden">
       <div className="absolute inset-0 opacity-[.03]">
         <img
-          className="w-full h-full object-cover"
-          src={background}
+          className="w-50 h-50 mt-[13.6rem] object-cover"
+          src={robot}
           width={688}
-          height={953}
+          height={553}
           alt="Background"
         />
       </div>

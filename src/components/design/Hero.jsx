@@ -50,7 +50,7 @@ export const BackgroundCircles = ({ parallaxRef }) => {
       <MouseParallax strength={0.07} parallaxContainerRef={parallaxRef}>
         <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[46deg]">
           <div
-            className={`w-2 h-2 -ml-1 -mt-36 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+            className={`w-2 h-2 -ml-1 -mt-286 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
@@ -95,6 +95,47 @@ export const BackgroundCircles = ({ parallaxRef }) => {
             }`}
           />
         </div>
+
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[120deg]">
+          <div
+            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#88E5BE] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[-150deg]">
+          <div
+            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#f4d143] to-[#d0d0de] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+
+        <div className="absolute bottom-1/2 left-1/2 w-0.25 h-1/2 origin-bottom rotate-[0deg]">
+          <div
+            className={`w-6 h-6 -ml-3 -mt-3 bg-gradient-to-b from-[#f94141] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+
+        <div className="absolute bottom-1/2 left-1/3 w-0.25 h-1/2 origin-bottom rotate-[40deg]">
+          <div
+            className={`w-3 h-3 -ml-1 -mt-4 bg-gradient-to-b from-[#45f045] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+
+        <div className="absolute bottom-1/2 left-1/4 w-0.25 h-1/2 origin-bottom rotate-[-15deg]">
+          <div
+            className={`w-2 h-2 -ml-1 -mt-286 bg-gradient-to-b from-[#DD734F] to-[#1A1A32] rounded-full transition-transform duration-500 ease-out ${
+              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          />
+        </div>
+
       </MouseParallax>
     </div>
   );
