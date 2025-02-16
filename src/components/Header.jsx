@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center gap-3 px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <img src={robot} alt="Logo" className="w-auto h-12" />
-        <a className="block font-extrabold w-[12rem] xl:mr-8" href="#hero">
+        <a className="block font-extrabold w-[12rem] xl:mr-8" href="/">
           The CodeBird
         </a>
 

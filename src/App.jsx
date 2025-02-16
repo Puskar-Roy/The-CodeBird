@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
+import ContactUs from "./components/ContactUs/ContactUs";
+import CrewPage from './components/Crew/CrewPage'
 
 
 const App = () => {
@@ -19,6 +21,14 @@ const App = () => {
           <Route
             path="/login"
             element={<Login />}
+          />
+          <Route
+            path="/crew"
+            element={<CrewPage />}
+          />
+          <Route
+            path="/contact"
+            element={<ContactUs />}
           />
         </Routes>
         <Footer />

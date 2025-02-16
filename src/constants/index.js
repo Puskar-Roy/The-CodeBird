@@ -50,12 +50,12 @@ export const navigation = [
   {
     id: "2",
     title: "Crew",
-    url: "#how-to-use",
+    url: "/crew",
   },
   {
     id: "3",
     title: "Contact Us",
-    url: "#roadmap",
+    url: "/contact",
   },
   {
     id: "4",
@@ -303,7 +303,7 @@ export const benefits = [
   },
   {
     id: "7",
-    title: "Hardware/Robotics/Embedded Design",
+    title: "Hardware/Embedded Design",
     text: "Hardware, Robotics, and Embedded Design focus on building intelligent systems by integrating circuits, sensors, and software to create automated and interactive devices.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon3,
