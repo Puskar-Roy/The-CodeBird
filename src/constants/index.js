@@ -31,30 +31,30 @@ import {
   searchMd,
   slack,
   sliders04,
-  telegram,
   twitter,
+  linkedin,
   yourlogo,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Events",
     url: "#features",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "About Us",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Crew",
     url: "#how-to-use",
   },
   {
     id: "3",
-    title: "Roadmap",
+    title: "Contact Us",
     url: "#roadmap",
   },
   {
@@ -299,30 +299,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.gg/eAXefdPPxk",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/TheCodeBird",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/thecodebird.exe/",
   },
   {
     id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
+    title: "Linkedin",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/company/thecodebird/",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/thecodebird/",
   },
 ];
