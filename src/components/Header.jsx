@@ -37,7 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center gap-3 px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <img src={robot} alt="Logo" className="w-auto h-12" />
-        <a className="block font-extrabold w-[12rem] xl:mr-8" href="#hero">
+        <a className="block font-extrabold w-[12rem] xl:mr-8" href="/">
           The CodeBird
         </a>
 
@@ -66,12 +66,12 @@ const Header = () => {
         </nav>
 
         <a
-          href="#signup"
+          href="/register"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex" href="/login">
           Sign in
         </Button>
 
