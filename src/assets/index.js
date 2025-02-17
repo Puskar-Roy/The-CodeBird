@@ -23,18 +23,18 @@ import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.png";
-import heroBackground from "./hero/hero-background.png";
+import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import discord from "./collaboration/SWOC_W_Black.png";
+import figma from "./collaboration/hackmountains_logo.jpeg";
+import framer from "./collaboration/h2s.jpeg";
+import notion from "./collaboration/hackthisfall_logo.jpeg";
+import photoshop from "./collaboration/diversion.avif";
+import protopie from "./collaboration/1722753272862.jpeg";
+import raindrop from "./collaboration/apertre_logo.jpeg";
+import slack from "./collaboration/cp_geeks_logo.jpeg";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -63,11 +63,17 @@ import benefitCard3 from "./benefits/card-3.svg";
 import benefitCard4 from "./benefits/card-4.svg";
 import benefitCard5 from "./benefits/card-5.svg";
 import benefitCard6 from "./benefits/card-6.svg";
-import benefitIcon1 from "./benefits/icon-1.svg";
-import benefitIcon2 from "./benefits/icon-2.svg";
-import benefitIcon3 from "./benefits/icon-3.svg";
-import benefitIcon4 from "./benefits/icon-4.svg";
-import benefitImage2 from "./benefits/image-2.png";
+import benefitIcon1 from "./benefits/ai.png";
+import benefitIcon2 from "./benefits/android.png";
+import benefitIcon3 from "./benefits/dsa.png";
+import benefitIcon4 from "./benefits/cyber.png";
+import benefitIcon5 from "./benefits/cloud.png";
+import benefitIcon6 from "./benefits/game.png";
+import benefitIcon7 from "./benefits/gate.png";
+import benefitIcon8 from "./benefits/hardware.png";
+import benefitIcon9 from "./benefits/web.png";
+
+import benefitImage2 from "./hero/robot.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -139,6 +145,11 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitIcon7,
+  benefitIcon8,
+  benefitIcon9,
   benefitImage2,
   discordBlack,
   facebook,

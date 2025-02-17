@@ -3,6 +3,12 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
+  benefitIcon7,
+  benefitIcon8,
+  benefitIcon9,
+
   benefitImage2,
   chromecast,
   disc02,
@@ -128,21 +134,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Mass Participation",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Promotion & Awareness",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Exciting Sessions",
   },
 ];
 
@@ -269,7 +275,7 @@ export const benefits = [
   },
   {
     id: "3",
-    title: "Cyber Security",
+    title: "Cyber Security & Ethical Hacking",
     text: "Cybersecurity protects systems, networks, and data from cyber threats through encryption, threat detection, and secure practices to prevent unauthorized access and attacks.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
@@ -281,7 +287,7 @@ export const benefits = [
     title: "DevOps/Cloud Development",
     text: "DevOps and Cloud Development streamline software deployment by automating workflows, ensuring scalability, and leveraging cloud infrastructure for efficient development and operations.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
   },
   {
@@ -289,7 +295,7 @@ export const benefits = [
     title: "Game Development",
     text: "Game development is the process of designing, coding, and creating interactive digital experiences using graphics, physics, and storytelling to build engaging games.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
   },
 
@@ -297,24 +303,24 @@ export const benefits = [
     id: "6",
     title: "GATE Exam",
     text: "The GATE (Graduate Aptitude Test in Engineering) exam is a national-level test in India that assesses candidates’ understanding of engineering and science subjects for higher studies and PSU recruitment.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon3,
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    iconUrl: benefitIcon7,
     imageUrl: benefitImage2,
   },
   {
     id: "7",
     title: "Hardware/Embedded Design",
     text: "Hardware, Robotics, and Embedded Design focus on building intelligent systems by integrating circuits, sensors, and software to create automated and interactive devices.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon3,
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    iconUrl: benefitIcon8,
     imageUrl: benefitImage2,
   },
   {
     id: "8",
-    title: "Website Development",
+    title: "Web Development",
     text: "Website development involves designing, building, and maintaining websites using front-end and back-end technologies to create dynamic and user-friendly online experiences.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon3,
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    iconUrl: benefitIcon9,
     imageUrl: benefitImage2,
   },
 ];
