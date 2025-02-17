@@ -7,6 +7,10 @@ const LoginForm = () => {
     email: "",
     password: "",
   });
+  const [errors, setErrors] = useState({
+    email: "",
+    password: "",
+  });
 
   const handleChange = (e) => {
     setFormData({
@@ -15,9 +19,22 @@ const LoginForm = () => {
     });
   };
 
+  const validateEmail = (email) => {
+    const regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    return regex.test(email);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Login Submitted", formData);
+   
+    if (!formData.email) {
+      setErrors((prev) => ({ ...prev, email: "Email is required" }));
+    } else if (!validateEmail(formData.email)) {
+      setErrors((prev) => ({ ...prev, email: "Please enter a valid email" }));
+    } else {
+      setErrors((prev) => ({ ...prev, email: "" })); 
+      console.log("Login Submitted", formData);
+    }
   };
 
   return (
@@ -39,7 +56,7 @@ const LoginForm = () => {
 
         <form onSubmit={handleSubmit} className="grid grid-cols-1  gap-6 mb-10">
           {Object.entries(formData).map(([key, value]) => (
-                    <div key={key} className="relative flex flex-col items-start">
+            <div key={key} className="relative flex flex-col items-start">
               <label
                 className="text-sm font-medium text-white mb-1 capitalize"
                 htmlFor={key}
@@ -47,7 +64,7 @@ const LoginForm = () => {
                 {key.replace(/([A-Z])/g, " $1").trim()}
               </label>
               <input
-                type={key === "password" ? "password" : "email"}
+                type={key === "password" ? "password" : "text"}
                 name={key}
                 id={key}
                 className="block w-full text-sm h-[50px] px-4 text-slate-900 bg-white rounded-[8px] border border-violet-200 appearance-none focus:border-transparent focus:outline focus:outline-2 focus:outline-primary focus:ring-0 hover:border-brand-500-secondary- peer invalid:border-error-500 invalid:focus:border-error-500"
@@ -55,17 +72,12 @@ const LoginForm = () => {
                 value={value}
                 onChange={handleChange}
               />
+              {errors[key] && <div className="text-red-500 text-sm mt-2">{errors[key]}</div>}
             </div>
           ))}
 
-          <div className="sm:flex mt-3  sm:mt-0 sm:flex-row-reverse flex gap-4 col-span-1">
-            <Button
-              onClick={() => {
-                console.log(formData);
-              }}
-            >
-              Login
-            </Button>
+          <div className="sm:flex mt-3 sm:mt-0 sm:flex-row-reverse flex gap-4 col-span-1">
+            <Button type="submit">Login</Button>
             <Button
               type="button"
               onClick={() => setFormData({ email: "", password: "" })}
