@@ -4,6 +4,7 @@ import { heroBackground } from "../../assets";
 
 import Section from "../Section";
 import { BackgroundCircles, BottomLine } from "../design/Hero";
+import LoginForm from "../common/LoginForm";
 
 
 const Login = () => {
@@ -19,10 +20,12 @@ const Login = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          
+          <LoginForm />
+
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]"></div>
+          <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+            </div>
 
           <div className="absolute -top-[154%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[154%]">
             <img
