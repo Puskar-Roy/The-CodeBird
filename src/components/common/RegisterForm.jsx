@@ -113,7 +113,7 @@ const RegisterForm = () => {
             </div>
           ))}
 
-          <div className="sm:flex mt-3  sm:mt-0 sm:flex-row-reverse md:justify-start justify-center  flex gap-4 col-span-2">
+          <div className="sm:flex mt-3  sm:mt-0 flex-row-reverse md:justify-start justify-center  flex gap-4 col-span-2">
             <Button onClick={() => console.log(formData)}>Register</Button>
             <Button
               type="button"
