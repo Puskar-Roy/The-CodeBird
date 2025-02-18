@@ -1,13 +1,12 @@
-import { useRef } from "react";
-
+import { useRef, useState } from "react";
 import { heroBackground } from "../../assets";
-
 import Section from "../Section";
 import { BackgroundCircles, BottomLine } from "../design/Hero";
 import CrewContainer from "./CrewContainer";
 
 const CrewPage = () => {
   const parallaxRef = useRef(null);
+  const [selectedCategory] = useState("All Crew"); // Removed category selection
 
   return (
     <Section
@@ -18,10 +17,15 @@ const CrewPage = () => {
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <CrewContainer/>
+        {/* Crew Section */}
+        <div className="relative z-1 mx-auto text-center mb-10">
+          <h2 className="text-4xl font-bold mb-6">Meet Our Crew</h2>
 
+          {/* Dynamic Crew Members Display */}
+          <CrewContainer selectedCategory={selectedCategory} />
         </div>
+
+        {/* Background and Design Elements */}
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]"></div>
 
