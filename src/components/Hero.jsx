@@ -42,7 +42,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Unlock Your Coding Potential with The CodeBird. Build, Learn, and Grow with a Thriving Developer Network.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/register" white>
             Join Us
           </Button>
         </div>
@@ -84,7 +84,7 @@ const Hero = () => {
 
             <Gradient />
           </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
+          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[148%] lg:-top-[104%]">
             <img
               src={heroBackground}
               className="w-full"
