@@ -8,6 +8,8 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import CrewPage from './components/Crew/CrewPage'
 import DownPage from "./components/common/404Page";
 import Register from "./components/Register/Register";
+import CollabUs from "./components/CollabUs/CollabUs";
+
 
 
 const App = () => {
@@ -40,6 +42,8 @@ const App = () => {
             path="*"
             element={<DownPage />}
           />
+           <Route path="/collab-us" 
+           element={<CollabUs />} />
         </Routes>
         <Footer />
       </div>
