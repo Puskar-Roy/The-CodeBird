@@ -1,6 +1,8 @@
-import { check, robot } from "../assets";
+import { robot } from "../assets";
+//check^^
 import Heading from "./Heading";
-import { collabApps, collabContent } from "../constants";
+import { collabApps } from "../constants";
+//collabContent^^
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -8,14 +10,15 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
-      <div className="container lg:flex">
+      <div className="container">
       <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl"
+      <Heading
+          className="mx-auto text-center md:max-w-md lg:max-w-2xl"
           title="Collaborated With"
-        />
+/>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
+
+          {/* <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
@@ -27,21 +30,19 @@ const Collaboration = () => {
                 )}
               </li>
             ))}
-          </ul>
-
-          <Button>Collab with Us</Button>
+          </ul> */}
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-4">
+        <div className="lg:ml-auto xl:w-[44rem] mt-10">
 
-          <div className="relative left-1/2 flex w-[22rem] mt-12 aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
+        <div className="relative left-16 flex w-full max-w-[32rem] mt-12 aspect-square border border-n-6 rounded-full translate-x-[-50%] scale-100 sm:scale-55 md:scale-50 lg:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
-              <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
+              <div className="w-[8rem] aspect-square m-auto p-[0.1rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img
                     src={robot}
-                    width={68}
-                    height={68}
+                    width={100}
+                    height={100}
                     alt="codebird"
                   />
                 </div>
@@ -57,12 +58,12 @@ const Collaboration = () => {
                   }`}
                 >
                   <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
+                    className={`relative -top-[1.6rem] flex w-[4.2rem] h-[4.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       index * 45
                     }`}
                   >
                     <img
-                      className="m-auto"
+                      className="m-auto rounded-xl"
                       width={app.width}
                       height={app.height}
                       alt={app.title}
@@ -75,7 +76,9 @@ const Collaboration = () => {
 
             <LeftCurve />
             <RightCurve />
+            
           </div>
+          <Button className="mt-[6rem]" href="/contact">Collab with Us</Button>
         </div>
       </div>
     </Section>
