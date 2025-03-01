@@ -8,7 +8,7 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import CrewPage from './components/Crew/CrewPage'
 import DownPage from "./components/common/404Page";
 import Register from "./components/Register/Register";
-import CollabUs from "./components/CollabUs/CollabUs";
+import CollabUs from "./components/collabUs/CollabUs";
 
 
 
