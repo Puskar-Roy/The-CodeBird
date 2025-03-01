@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import ContactUs from "./components/ContactUs/ContactUs";
-import CrewPage from './components/Crew/CrewPage'
+import CrewPage from './components/Crew/CrewPage';
 import DownPage from "./components/common/404Page";
 import Register from "./components/Register/Register";
 import CollabUs from "./components/collabUs/CollabUs";
