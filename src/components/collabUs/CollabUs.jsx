@@ -34,7 +34,7 @@ const CollabUs = () => {
   return (
     <div className="backdrop-blur-2xl p-10 rounded-lg shadow-lg max-w-2xl mx-auto mt-20">
       <div className="flex flex-wrap gap-5 items-center w-full mb-10">
-        <div className="flex flex-wrap flex-1 gap-5 items-center min-w-[240px]">
+        <div className="flex flex-wrap flex-1 gap-5  items-center min-w-[240px]">
           <div className="flex justify-center items-center bg-gray-100 h-[70px] w-[70px] rounded-[16px] overflow-hidden">
             <img src={robot} alt="Logo" className="w-[70px] h-[70px]" />
           </div>
