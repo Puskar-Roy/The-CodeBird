@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
+import {Quote } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -59,15 +59,6 @@ export default function TestimonialSlider() {
             ))}
           </Swiper>
 
-          <button className="swiper-button-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition-colors">
-            <ChevronLeft className="h-6 w-6 text-gray-700" />
-            <span className="sr-only">Previous</span>
-          </button>
-
-          <button className="swiper-button-next absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-md hover:bg-gray-100 transition-colors">
-            <ChevronRight className="h-6 w-6 text-gray-700" />
-            <span className="sr-only">Next</span>
-          </button>
         </div>
 
         <div className="swiper-pagination mt-8 flex justify-center gap-2"></div>
@@ -79,7 +70,7 @@ export default function TestimonialSlider() {
 
 function TestimonialCard({ testimonial }) {
   return (
-    <div className="bg-slate-800 border-blue-300 rounded-xl shadow-md p-6 h-full flex flex-col transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
+    <div className="backdrop-blur-10 bg-slate-5 border-blue-300 rounded-xl shadow-md p-6 h-full flex flex-col transition-transform duration-300 hover:-translate-y-1 hover:shadow-lg">
       <Quote className="h-8 w-8 text-blue-500 mb-4 opacity-70" />
       <p className="text-base flex-grow mb-6">{testimonial.quote}</p>
       <div className="flex items-center">
@@ -163,5 +154,4 @@ const testimonials = [
       "The journey has been nothing short of transformative! With mentorship and hands-on learning, I now develop AI models that optimize processes, enhance decision-making, and drive technological progress.",
     image: "https://media.licdn.com/dms/image/v2/D5603AQEDp5IS4oxZ0Q/profile-displayphoto-shrink_400_400/B56ZRpZDjeH0Ag-/0/1736934963874?e=1746057600&v=beta&t=jiM0HdY6VGUfq6NKEuHi7D9rewSQrr6BiiJ1MRKlFu0",
   },
-
 ];
