@@ -9,10 +9,11 @@ const Benefits = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl"
+      <Heading
+          className="mx-auto text-center md:max-w-md lg:max-w-2xl"
           title="Our Nests"
-        />
+      />
+
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.slice(0, 9).map((item) => (

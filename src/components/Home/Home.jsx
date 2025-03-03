@@ -2,9 +2,10 @@
 import Benefits from "../Benefits";
 import Collaboration from "../Collaboration";
 import Hero from "../Hero";
-import Pricing from "../Pricing";
+// import Pricing from "../Pricing";
 import Roadmap from "../Roadmap";
-import Services from "../Services";
+// import Services from "../Services";
+import TestimonialSlider from "../Testimonials/TestimonialSlider";
 
 const Home = () => {
   return (
@@ -12,8 +13,9 @@ const Home = () => {
       <Hero />
         <Benefits />
         <Collaboration />
-        <Services />
-        <Pricing />
+        <TestimonialSlider/>
+        {/* <Services />
+        <Pricing /> */}
         <Roadmap />
     </div>
   )
