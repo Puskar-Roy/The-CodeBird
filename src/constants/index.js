@@ -215,6 +215,43 @@ export const collabApps = [
   },
 ];
 
+export const galleryImages = [
+  {
+    id: "g1",
+    title: "Team Building Retreat",
+    date: "February 5, 2023",
+    imageUrl: "/placeholder.svg?height=400&width=600",
+    description: "Our team enjoying activities at the annual retreat.",
+    status: "past",
+  },
+  {
+    id: "g2",
+    title: "Product Design Workshop",
+    date: "April 18, 2023",
+    imageUrl: "/placeholder.svg?height=400&width=600",
+    description: "Collaborative workshop for our new product design.",
+    status: "past",
+  },
+  {
+    id: "g3",
+    title: "Customer Appreciation Day",
+    date: "July 22, 2023",
+    imageUrl: "/placeholder.svg?height=400&width=600",
+    description: "Special event to thank our loyal customers.",
+    status: "current",
+  },
+  {
+    id: "g4",
+    title: "Tech Meetup",
+    date: "November 10, 2023",
+    imageUrl: "/placeholder.svg?height=400&width=600",
+    description: "Networking event with industry professionals.",
+    status: "upcoming",
+  },
+]
+
+
+
 export const pricing = [
   {
     id: "0",

@@ -8,6 +8,8 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import CrewPage from './components/Crew/CrewPage'
 import DownPage from "./components/common/404Page";
 import Register from "./components/Register/Register";
+import Event from "./components/Event Section/Event";
+
 
 
 const App = () => {
@@ -23,6 +25,10 @@ const App = () => {
           <Route
             path="/login"
             element={<Login />}
+          />
+          <Route
+            path="/event"
+            element={<Event/>}
           />
           <Route
             path="/register"
