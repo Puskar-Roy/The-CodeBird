@@ -43,13 +43,14 @@ import {
   m1,
   m3,
   robot,
+  service3,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
     title: "Events",
-    url: "/features",
+    url: "/event",
   },
   {
     id: "1",
@@ -236,15 +237,15 @@ export const galleryImages = [
     id: "g3",
     title: "Customer Appreciation Day",
     date: "July 22, 2023",
-    imageUrl: "/placeholder.svg?height=400&width=600",
+    imageUrl: "service3",
     description: "Special event to thank our loyal customers.",
-    status: "current",
+    status: "present",
   },
   {
     id: "g4",
     title: "Tech Meetup",
     date: "November 10, 2023",
-    imageUrl: "/placeholder.svg?height=400&width=600",
+    imageUrl: service3,
     description: "Networking event with industry professionals.",
     status: "upcoming",
   },

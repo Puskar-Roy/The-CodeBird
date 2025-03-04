@@ -3,75 +3,79 @@ import { EventTimeline } from "./EventTimeLine";
 const events = [
   {
     id: "1",
-    date: "January 15, 2023",
-    title: "Company Launch",
-    description: "We officially launched our company with our first product release.",
+    date: "August 26, 2016",
+    title: "CodeBird Founded",
+    description: "We officially launched our club with our first team.",
     isActive: true,
     status: "past",
   },
   {
     id: "2",
-    date: "March 22, 2023",
-    title: "Series A Funding",
-    description: "Successfully secured $5 million in Series A funding to accelerate growth.",
+    date: "September 25, 2024",
+    title: "Hand Over < Batch'22-26/>",
+    description: "Successfully batch'25 team handed over the responsibility to the new team of batch'26 .",
     status: "past",
   },
   {
     id: "3",
-    date: "June 10, 2023",
-    title: "New Office Opening",
-    description: "Opened our new headquarters in downtown to accommodate our growing team.",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    date: "September 28, 2024",
+    title: "New Team Formed<Batch'22-26/>",
+    description: "Formed the new Core Team, Semi Core Team and the Tech Teams.",
     status: "past",
   },
   {
     id: "4",
-    date: "October 5, 2023",
-    title: "Product Milestone",
-    description: "Reached 100,000 active users on our platform.",
+    date: "2024",
+    title: "Freshers Orientation <Batch'24-28/>",
+    description: "We have sucessfully hosted our 1st Event & presents Our Codebird with the Freshie Of Our CodeBird",
     status: "past",
   },
   {
     id: "5",
-    date: "March 3, 2024",
-    title: "Annual Conference",
-    description: "Hosting our annual tech conference with industry leaders and innovators.",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    date: "October 2024",
+    title: "Tech Sessions <1st Wave/>",
+    description: "Hosting our first wave of tech sessions of all the domains with the Tech leaders and Executive members.",
     isActive: true,
-    status: "present",
+    status: "past",
   },
   {
     id: "6",
-    date: "April 15, 2024",
-    title: "Product Launch",
-    description: "Launching our new flagship product with enhanced features and capabilities.",
-    imageUrl: "/placeholder.svg?height=300&width=500",
-    status: "upcoming",
+    date: "Dec 22, 2024 - Mar 15, 2025",
+    title: "CodeBird Winter of Code <CWoC'24-25/> ",
+    description: "Launching our first event CWoC, a kind of an open source project bootcamp. On that day bootcamp was started",
+    status: "present",
   },
   {
     id: "7",
-    date: "June 30, 2024",
-    title: "International Expansion",
-    description: "Opening our first international office to serve global customers.",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    date: "March 7,2025 - March 15,2025  ",
+    title: "GamiZ <Season 4/>",
+    description: "GamiZ 4.0, our Second Event, a kind of Esports for Uitians",
     status: "upcoming",
   },
   {
     id: "8",
-    date: "September 12, 2024",
-    title: "Developer Hackathon",
-    description: "Hosting a 48-hour hackathon for developers to build innovative solutions.",
+    date: " March 18, 2025",
+    title: "Closing Ceremony <CWoC'24-25/> ",
+    description: "Launching our first event CWoC, a kind of an open source project bootcamp. On that day bootcamp was started",
     status: "upcoming",
   },
   {
     id: "9",
-    date: "December 31, 2024",
-    title: "Year-End Celebration",
-    description: "Celebrating our achievements and setting ambitious goals for the coming year.",
-    imageUrl: "/placeholder.svg?height=300&width=500",
+    date: "March 25, 2025",
+    title: "Ideathon",
+    description: "Hosting a paper prestentation event for the researchers to build innovative solutions.",
+    status: "upcoming",
+  },
+  {
+    id: "9",
+    date: "Counting....",
+    title: "Coming Soon ......",
+    description: "Coming Soon........",
     status: "upcoming",
   },
 ];
+
+
 
 const allEvents = [...events];
 
@@ -80,10 +84,10 @@ export default function Event() {
     <main className="min-h-screen py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h1 className="text-3xl font-bold mb-4">Our Journey</h1>
+          <h1 className="text-3xl font-bold mb-4">Our Journey of 2024-25</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Follow our path from inception to where we are today. Each milestone represents a significant achievement in
-            our company history.
+            our Team history.
           </p>
         </div>
         <EventTimeline events={allEvents} />

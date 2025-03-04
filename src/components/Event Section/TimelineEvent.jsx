@@ -10,7 +10,7 @@ function TimelineEvent({ event, isEven }) {
 
       <div className={`w-full md:w-1/2 ${isEven ? "md:pl-12" : "md:pr-12"}`}>
         <div
-          className={`p-6 shadow-md border rounded-xl border-blue-600 ${event.isActive ? "ring-2 ring-primary" : ""}`}
+          className={`p-6 shadow-md border rounded-2xl border-blue-600 ${event.isActive ? "ring-2 ring-primary" : ""}`}
         >
           <div className="flex items-center justify-between mb-2">
             <div className="flex items-center text-sm text-gray-500">

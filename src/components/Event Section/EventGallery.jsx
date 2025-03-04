@@ -2,14 +2,14 @@ import { useState } from "react";
 import { X, Calendar, Clock, CheckCircle } from "lucide-react";
 import {galleryImages} from "../../constants/index"
 
-export function EventGallery({ events, activeFilter }) {
+export function EventGallery({ activeFilter }) {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const filteredEvents = galleryImages.filter(
     (galleryImages) => galleryImages.imageUrl && (activeFilter === "all" || galleryImages.status === activeFilter)
   );
 
-  if (events.length === 0) {
+  if (galleryImages.length === 0) {
     return null;
   }
 
@@ -52,9 +52,9 @@ export function EventGallery({ events, activeFilter }) {
               onClick={() => setSelectedImage(galleryImages)}
             >
               <img
-                src={galleryImages.imageUrl || "/placeholder.svg"}
+                src={galleryImages.imageUrl}
                 alt={galleryImages.title}
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                className="h-50 w-50 object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300" />
               <div className="absolute inset-0 p-4 flex flex-col justify-end transform translate-y-8 group-hover:translate-y-0 transition-transform duration-300">
