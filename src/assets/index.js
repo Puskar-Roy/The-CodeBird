@@ -8,7 +8,9 @@ import smallSphere from "./4-small.png";
 import grid from "./grid.png";
 import check2 from "./check-02.svg";
 import loading1 from "./loading-01.svg";
-import yourlogo from "./yourlogo.svg";
+import m2 from "./m2.png";
+import m1 from "./m1.png";
+import m3 from "./m3.png"
 import homeSmile from "./home-smile.svg";
 import file02 from "./file-02.svg";
 import searchMd from "./search-md.svg";
@@ -38,7 +40,7 @@ import slack from "./collaboration/cp_geeks_logo.jpeg";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import service3 from "./services/Sessionn.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -46,10 +48,10 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
+import roadmap1 from "./roadmap/seminars.jpg";
+import roadmap2 from "./roadmap/sessions.jpg";
 import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+import roadmap4 from "./roadmap/mq.png";
 import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
@@ -93,7 +95,9 @@ export {
   gradient,
   smallSphere,
   grid,
-  yourlogo,
+  m2,
+  m1,
+  m3,
   homeSmile,
   file02,
   searchMd,
