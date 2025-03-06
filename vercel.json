@@ -27,6 +27,14 @@
     {
       "src": "/contact",
       "dest": "/"
+    },
+    {
+      "src": "/event",
+      "dest": "/"
+    },
+    {
+      "src": "/collab-us",
+      "dest": "/"
     }
   ]
 }
